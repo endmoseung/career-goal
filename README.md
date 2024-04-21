@@ -15,70 +15,57 @@
 
 # 예시
 ## 이름
-장진달
+김승모
 ## KYS 작성
 ### Key Strength
 - 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
 - ex: 
-    - Java Backend
-    - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
+    - React/NextJS Frontend
+    - Passionate
+    - Interested in Infra architecture with cloud
+    - Automation and Optimization
+    - Typescript for Developer experience
 ### Read.me 작성
-- Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
+- 에듀테크 회사에서 React/NextJS를 기반으로 일본, 베트남에 웹 서비스를 배포하고, 내부 서비스를 운영하기 위한 관리 시스템(백오피스)를 개발했습니다. 서비스의 성공을 위해서 열정적으로 팀에 헌신하고 기여합니다.
 
-### Goal 설정
-- 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
 ## Gap 분석
 ### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+- 배포부터 운영까지의 흐름을 알고 있고, 그 과정에서 팀에 적합한 안정적인 아키텍쳐를 선정하고 발전적인 자동화 라인을 구축하여 프론트엔드 개발을 한다.
+- 개발 경험을 팀의 목적과 결합하여 팀원 모두가 같은 방향으로 올바른 장소에 도착할 수 있도록 방향성을 얼라인하고 팀원을 리드한다.
 ### 필요역량
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - JWT
-    - Spring security
-    - RSA
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
+- Frontend 개발 역량
+- React 개발 역량
+- Typescript, Flow와 같은 정적 타입분석 툴
+- 배포
+    - AWS CLoud
+    - EC2, ECR, S3, CloudFront
+    - Jenkins
+    - Github Actions
 - 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - 분산 Cloud 아키택처
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+    - 중복 코드 모듈화
+    - 중복 코드 제거를 위한 기술 : NPM 배포, 프론트엔드 디자인 패턴과 아키텍쳐 준수
+    - 자동 CI/CD
+    - 안전한 CI : Test Code 적용, 배포와도 연결
 ### 나의 상태
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - Spring security
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
+- Frontend 개발 역량
+- React를 사용하여 선언적인 소스코드를 작성 및 유지보수 할 수 있다.
+- 정적 Type을 기반으로 한 개발 역량
+- 배포
+    - 프론트엔드 아키텍쳐 흐름과 배포 과정에 대해서 알고 분석할 수 있다.(Jenkins, AWS Cloud)
+    - 보다 값이 적게 들고 최적화된 빌드 시간 구축을 위해 관심이 많고 적용할 수 있다.
 - 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+    - 클린코드, 함수형 프로그래밍, 객체지향 프로그래밍에 대한 지식 보유
+    - NPM 배포 경험 보유, 프론트엔드 디자인 패턴 조금 보유
+    - 자동 CI/CD 환경에서 서비스 유지보수 해본 경험 보유, 해당 워크플로우 분석 가능.
+    - 국소적으로 TestCode적용 완료, 하지만 CI와 연결해본 경험 없음
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+- 프론트엔드 학습 심화 : 프론트엔드에 대한 역량이 부족함 더 많은 코드를 작성하고 스터디하며 습득
+- cloud 공부 : 학습을 책이나 강의로 딥하게 해본적이 없음, 사내에서 내가 직접 배포해본 적 없음
+- 백엔드 지식 : 직접 백엔드 API를 만들어본적이 없으며, 유지보수 해본 적 없음
+- 시스템 안정성이 높은 아키택쳐 구성 : 테스트코드를 엄격하게 짜본 경험 없음, TDD에 대해서도 이론적으로만 앎
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
-
-
-
+- 프론트엔드 학습 심화 : 자바스크립트, 리액트, NextJS에서 동작원리와 내부 구현에 대한 공부
+- cloud 공부 : AWS Developer 자격증 취득, docker와 jenkins에 대한 지식 습득
+- 백엔드 스터디 : NestJS를 학습하여 웹 전반적인 아키텍쳐 습득, 객체지향과 DIP 등을 직접 학습
+- 시스템 안정성이 높은 아키택쳐 구성 : TestCode가 필요한 부분에 대한 적용과 관련 내용 습득(Cypress, Playwright, Jest, RTL)
+    
